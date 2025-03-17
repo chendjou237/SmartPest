@@ -1,0 +1,66 @@
+name: pest_gpt
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get:
+  get_storage:
+  image_picker: ^1.0.7
+  flutter_svg: ^2.0.10+1
+  json_annotation: ^4.9.0
+  camera: ^0.10.6
+  path_provider: ^2.1.3
+  permission_handler: ^11.3.1
+  lang_internationalization: ^0.0.5
+  toastification: ^2.0.0
+  lottie: ^3.1.2
+  sqflite: ^2.3.3+1
+  # error_view:
+  #   path: /Users/manukenchappajunjanna/Documents/package/error_view
+  flutter_localizations:
+    sdk: flutter
+  web3modal_flutter: ^3.3.0
+  intl: ^0.19.0
+  rename_app: ^1.6.2
+  flutter_launcher_icons: ^0.14.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.9
+  json_serializable: ^6.8.0
+  flutter_lints: ^2.0.3
+  source_gen: ^1.0.0
+  image: ^4.2.0
+  flutter_dotenv: ^5.1.0
+  google_generative_ai: ^0.4.3
+  neubrutalism_ui: ^2.0.2
+  syncfusion_flutter_charts: ^26.1.40
+
+
+dependency_overrides:
+  meta: ^1.14.0
+  analyzer: ^5.11.1
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
+    - assets/models/
+    - assets/labels/
+    - assets/lottiefiles/
+    - assets/.env
