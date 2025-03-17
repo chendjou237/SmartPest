@@ -1,4 +1,4 @@
-package com.example.fucker
+package com.example.SmartPest
 
 import io.flutter.embedding.android.FlutterActivity
 
